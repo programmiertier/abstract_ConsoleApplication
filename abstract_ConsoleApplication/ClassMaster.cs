@@ -7,11 +7,14 @@ using static System.Console;
 
 namespace abstract_ConsoleApplication
 {
-    class Program           // abstract Klassen stehen in Konkurrenz mit Interfaces
+    abstract class ClassMaster
     {
-        static void Main(string[] args)
+        public int zahl;
+        public void hallo()
         {
-
+            WriteLine("hello world");
         }
+        public abstract void melden();
+        
     }
 }
